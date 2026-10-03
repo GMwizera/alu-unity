@@ -37,3 +37,4 @@ Answers to the Unity User Interface project. Each file holds a single one-line a
 | `17-hierarchy_parenting` | What Parenting means in Unity |
 | `18-hierarchy_child` | How to create a child object |
 | `19-hierarchy_hotkey` | Hotkey to switch to the Hierarchy window |
+| `20-inspector_properties` | How to see the properties of a GameObject |
