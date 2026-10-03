@@ -11,3 +11,4 @@ Unity 3D project covering GameObjects, Components, Materials, Physics Materials,
 | `2-colors` | floor and ball materials applied |
 | `3-gravity` | Rigidbody on Ball with bounce Physic Material |
 | `4-prefab` | Ball prefab with four extra instances |
+| `5-more_colors` | Five colored balls with named materials |
