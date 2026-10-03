@@ -31,3 +31,4 @@ Answers to the Unity User Interface project. Each file holds a single one-line a
 | `11-game_view` | Where the Game view gets its rendered view from |
 | `12-game_camera` | Game view toolbar menu to choose a camera |
 | `13-game_aspect` | Game view toolbar menu to test aspect ratios |
+| `14-game_zoom` | Which option is not a way to zoom in the Game view |
