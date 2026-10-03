@@ -48,3 +48,4 @@ Answers to the Unity User Interface project. Each file holds a single one-line a
 | `28-toolbar_move` | Transform tool that moves a GameObject |
 | `29-toolbar_transform_2d` | Transform tool for 2D layouts |
 | `30-toolbar_views` | Toolbar dropdown that arranges all Views |
+| `31-toolbar_displayed_objects` | Toolbar dropdown that controls displayed objects |
