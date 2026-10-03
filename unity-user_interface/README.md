@@ -47,3 +47,4 @@ Answers to the Unity User Interface project. Each file holds a single one-line a
 | `27-toolbar_scale` | Transform tool that scales a GameObject |
 | `28-toolbar_move` | Transform tool that moves a GameObject |
 | `29-toolbar_transform_2d` | Transform tool for 2D layouts |
+| `30-toolbar_views` | Toolbar dropdown that arranges all Views |
