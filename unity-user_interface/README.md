@@ -21,3 +21,4 @@ Answers to the Unity User Interface project. Each file holds a single one-line a
 | `1-project_filter` | Ways to filter assets in the Project window toolbar |
 | `2-project_hotkey` | Hotkey to switch to the Project window |
 | `3-console_hotkey` | Hotkey to switch to the Console window |
+| `4-scene_x` | Direction represented by the X axis |
