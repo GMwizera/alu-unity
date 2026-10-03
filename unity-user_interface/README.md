@@ -34,3 +34,4 @@ Answers to the Unity User Interface project. Each file holds a single one-line a
 | `14-game_zoom` | Which option is not a way to zoom in the Game view |
 | `15-hierarchy_order` | Default order of objects in the Hierarchy window |
 | `16-hierarchy_reorder` | Which option is not a way to reorder objects in the Hierarchy |
+| `17-hierarchy_parenting` | What Parenting means in Unity |
