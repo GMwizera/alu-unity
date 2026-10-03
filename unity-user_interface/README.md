@@ -29,3 +29,4 @@ Answers to the Unity User Interface project. Each file holds a single one-line a
 | `9-scene_hotkey` | Hotkey to switch to the Scene view |
 | `10-scene_center` | Hotkey to center the view on a GameObject |
 | `11-game_view` | Where the Game view gets its rendered view from |
+| `12-game_camera` | Game view toolbar menu to choose a camera |
