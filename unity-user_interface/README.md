@@ -32,3 +32,4 @@ Answers to the Unity User Interface project. Each file holds a single one-line a
 | `12-game_camera` | Game view toolbar menu to choose a camera |
 | `13-game_aspect` | Game view toolbar menu to test aspect ratios |
 | `14-game_zoom` | Which option is not a way to zoom in the Game view |
+| `15-hierarchy_order` | Default order of objects in the Hierarchy window |
