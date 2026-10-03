@@ -22,3 +22,4 @@ Answers to the Unity User Interface project. Each file holds a single one-line a
 | `2-project_hotkey` | Hotkey to switch to the Project window |
 | `3-console_hotkey` | Hotkey to switch to the Console window |
 | `4-scene_x` | Direction represented by the X axis |
+| `5-scene_y` | Direction represented by the Y axis |
