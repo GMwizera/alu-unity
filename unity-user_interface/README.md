@@ -26,3 +26,4 @@ Answers to the Unity User Interface project. Each file holds a single one-line a
 | `6-scene_z` | Direction represented by the Z axis |
 | `7-scene_perspective_isometric` | Which Scene view is Perspective and which is Isometric |
 | `8-scene_navigating` | Which option is not a way to navigate the Scene view |
+| `9-scene_hotkey` | Hotkey to switch to the Scene view |
