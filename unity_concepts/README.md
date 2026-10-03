@@ -10,3 +10,4 @@ Unity 3D project covering GameObjects, Components, Materials, Physics Materials,
 | `1-ball` | Sphere named Ball at Y 8, scale 1.5 |
 | `2-colors` | floor and ball materials applied |
 | `3-gravity` | Rigidbody on Ball with bounce Physic Material |
+| `4-prefab` | Ball prefab with four extra instances |
