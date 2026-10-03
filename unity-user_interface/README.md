@@ -43,3 +43,4 @@ Answers to the Unity User Interface project. Each file holds a single one-line a
 | `23-inspector_hotkey` | Hotkey to switch to the Inspector window |
 | `24-toolbar_rotate` | Transform tool that rotates a GameObject |
 | `25-toolbar_pan` | Transform tool that pans around the Scene |
+| `26-toolbar_transform` | Transform tool combining Move, Rotate and Scale |
