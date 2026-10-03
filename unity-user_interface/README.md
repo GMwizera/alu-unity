@@ -40,3 +40,4 @@ Answers to the Unity User Interface project. Each file holds a single one-line a
 | `20-inspector_properties` | How to see the properties of a GameObject |
 | `21-inspector_script_component` | Part of a script shown in the Inspector |
 | `22-inspector_multiple` | Whether more than one Inspector can be open |
+| `23-inspector_hotkey` | Hotkey to switch to the Inspector window |
