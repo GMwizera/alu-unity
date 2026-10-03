@@ -18,3 +18,4 @@ Answers to the Unity User Interface project. Each file holds a single one-line a
 | File | Question |
 |------|----------|
 | `0-project_add_new` | Which option is not a way to add assets or subfolders to a project |
+| `1-project_filter` | Ways to filter assets in the Project window toolbar |
