@@ -45,3 +45,4 @@ Answers to the Unity User Interface project. Each file holds a single one-line a
 | `25-toolbar_pan` | Transform tool that pans around the Scene |
 | `26-toolbar_transform` | Transform tool combining Move, Rotate and Scale |
 | `27-toolbar_scale` | Transform tool that scales a GameObject |
+| `28-toolbar_move` | Transform tool that moves a GameObject |
