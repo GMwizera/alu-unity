@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2226076448571506798}
   - component: {fileID: 448803470138095760}
   - component: {fileID: 912261770454225131}
+  - component: {fileID: 4329926472820772721}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -132,3 +133,20 @@ MonoBehaviour:
   speed: 6
   jumpSpeed: 8
   gravity: 20
+  fallLimit: -15
+  respawnHeight: 25
+  startPosition: {x: 0, y: 0, z: 0}
+  respawning: 0
+--- !u!114 &4329926472820772721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7184665165112566987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05ac4cb09979f4ede82f7325572d42db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Timer
+  TimerText: {fileID: 0}
