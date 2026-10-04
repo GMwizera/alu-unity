@@ -21,6 +21,12 @@ A 3D platformer prototype built with primitives, in Unity 6.
 | `TimerTrigger` | TimerTrigger | Starts the timer when the Player moves off the start |
 | `WinTrigger` | WinFlag | Stops the timer and highlights it |
 
+## Builds
+
+Level01 is built as `Platformer` for Windows (x86_64), Linux (x86_64) and Mac into `Builds/`
+(not committed; the zipped builds are shared separately):
+`Platformer_Windows_x86_64.zip`, `Platformer_Linux_x86_64.zip`, `Platformer_Mac.zip`.
+
 ## Credits
 
 - Models: [Kenney's Nature Pack Extended](https://kenney.nl/assets/nature-pack-extended) (now published as [Nature Kit](https://kenney.nl/assets/nature-kit), CC0)
