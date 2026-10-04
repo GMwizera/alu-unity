@@ -20,3 +20,7 @@ A 3D platformer prototype built with primitives, in Unity 6.
 | `Timer` | Player | Counts up and updates `TimerText` |
 | `TimerTrigger` | TimerTrigger | Starts the timer when the Player moves off the start |
 | `WinTrigger` | WinFlag | Stops the timer and highlights it |
+
+## Credits
+
+- Models: [Kenney's Nature Pack Extended](https://kenney.nl/assets/nature-pack-extended) (now published as [Nature Kit](https://kenney.nl/assets/nature-kit), CC0)
