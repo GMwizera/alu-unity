@@ -519,6 +519,7 @@ GameObject:
   - component: {fileID: 438797871}
   - component: {fileID: 438797870}
   - component: {fileID: 438797869}
+  - component: {fileID: 438797872}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -600,6 +601,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &438797872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438797868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e79df9119ebf84331b3ad56a1afef91f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraController
+  player: {fileID: 3760516157566946456}
+  mouseSensitivity: 3
 --- !u!1 &492176312
 GameObject:
   m_ObjectHideFlags: 0
@@ -2770,6 +2785,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4efea66edc88f4d86bce4c56ec493b23, type: 3}
+--- !u!4 &3760516157566946456 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6944590182719298261, guid: 4efea66edc88f4d86bce4c56ec493b23, type: 3}
+  m_PrefabInstance: {fileID: 3760516157566946455}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
