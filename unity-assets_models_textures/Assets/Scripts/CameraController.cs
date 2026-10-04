@@ -9,11 +9,13 @@ public class CameraController : MonoBehaviour
     private Quaternion startRotation;
     private float yaw = 0f;
     private float pitch = 0f;
+    private PlayerController playerController;
 
     void Start()
     {
         offset = transform.position - player.position;
         startRotation = transform.rotation;
+        playerController = player.GetComponent<PlayerController>();
     }
 
     void LateUpdate()
@@ -26,8 +28,14 @@ public class CameraController : MonoBehaviour
             pitch = Mathf.Clamp(pitch, -20f, 40f);
         }
 
+        // While the Player drops back onto the start, hold the camera at the start's
+        // height so the Player falls in from the top of the screen.
+        Vector3 target = player.position;
+        if (playerController != null && playerController.respawning)
+            target.y = playerController.startPosition.y;
+
         Quaternion orbit = Quaternion.Euler(pitch, yaw, 0f);
-        transform.position = player.position + orbit * offset;
+        transform.position = target + orbit * offset;
         transform.rotation = orbit * startRotation;
     }
 }
