@@ -55,6 +55,19 @@ public class PlayerController : MonoBehaviour
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
 
+        // Touch controls: hold a finger on the screen to roll toward it,
+        // relative to the screen center. Screen up is forward in the maze.
+        if (Input.touchCount > 0)
+        {
+            Vector2 center = new Vector2(Screen.width / 2f, Screen.height / 2f);
+            Vector2 direction = Input.GetTouch(0).position - center;
+            // Full strength once the finger is a quarter screen away from the center.
+            direction /= Screen.height / 4f;
+            direction = Vector2.ClampMagnitude(direction, 1f);
+            moveHorizontal = direction.x;
+            moveVertical = direction.y;
+        }
+
         // Only X and Z, so the Player can't jump.
         Vector3 movement = new Vector3(moveHorizontal, 0f, moveVertical);
         rb.AddForce(movement * speed);
